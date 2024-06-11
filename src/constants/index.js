@@ -1,3 +1,5 @@
+import { github, twitter, instagram, facebook } from "../assets";
+
 export const navigation = [
   {
     id: "0",
@@ -31,8 +33,8 @@ export const socials = [
   },
   {
     id: "1",
-    title: "X",
-    iconUrl: x,
+    title: "Twitter",
+    iconUrl: twitter,
     url: "#",
   },
   {
