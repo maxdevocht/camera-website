@@ -32,10 +32,14 @@ const Header = () => {
           <h1 className="h6">more. than a camera</h1>
         </a>
 
-        <nav className="flex fixed top-[5rem] left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto">
+        <nav className="hidden fixed top-[5rem] left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto">
           <div className="relative z-2 flex flex-col lg:flex-row items-center justify-center m-auto lg:flex-grow">
             {navigation.map((item) => (
-              <a key={item.id} href={item.url}>
+              <a
+                key={item.id}
+                href={item.url}
+                className="block relative font-code text-2xl uppercase"
+              >
                 {item.title}
               </a>
             ))}
