@@ -12,14 +12,6 @@ export default {
         grotesk: "var(--font-grotesk)",
       },
       colors: {
-        color: {
-          1: "#ffffff",
-          2: "#000000",
-          3: "#EEEEEE",
-          4: "#686D76",
-          5: "#373A40",
-          6: "#ff6615",
-        },
         blue: "#2997FF",
         gray: {
           DEFAULT: "#86868b",
