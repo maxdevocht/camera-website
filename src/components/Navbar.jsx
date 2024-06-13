@@ -23,9 +23,15 @@ const Navbar = () => {
 
   return (
     <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center">
-      <nav className="flex w-full screen-max-width bg-opacity-45 backdrop-filter backdrop-blur-lg border rounded-full border-white border-opacity-25">
+      <nav className="flex w-full screen-max-width">
         <a href="#">
-          <img src={webcam} alt="logo" width={30} height={30} />
+          <img
+            src={webcam}
+            alt="logo"
+            width={30}
+            height={30}
+            className="ml-3"
+          />
         </a>
 
         <div className="flex flex-1 items-center justify-center max-sm:hidden">
@@ -39,7 +45,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <button className="text-sm max-sm:hidden border rounded-full px-3 py-1 ">
+        <button className="text-sm max-sm:hidden text-gray hover:text-white border border-gray hover:border-white transition-all rounded-full px-3 py-1 ">
           Contact
         </button>
       </nav>
